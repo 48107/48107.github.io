@@ -13,13 +13,13 @@ header {
     font-size: 25px;
     color: aliceblue;
 }
-ul {
+.topnav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
     overflow: hidden;
 }
-li {
+.topnav li {
     display: inline;
     margin: 10px 20px 0 ;
 }
@@ -49,4 +49,35 @@ li {
 }
 .test:hover {
     color: rgb(0,183,255);
+}
+#safetyHeader {
+    margin-left: 7px;
+}
+.important {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+.important h2 {
+    font-size: 30px;
+}
+.important p {
+    font-size: 25px;
+}
+#whyProblem {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cool {
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+.cool h2 {
+    font-size: 27px;
+}
+.cool p {
+    font-size: 20px
+}
+.cool li {
+    font-size: 17px;
 }
