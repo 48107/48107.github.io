@@ -2,37 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.css">
-    <title>Tom's Issue Investigation</title>
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="styles/main.css">
+    <title>DIT Portfolio</title>
 </head>
 <body>
     <header>
-        <div class="topnav" id="myTopnav">
-            <ul>
-                <li><a href="index.html" id="home">Tom's Issue Investigation Website</a></li>
-                <li><a href="index.html" class="test">HOME</a></li>
-                <li><a href="/pages/news.html" class="test">NEWS</a></li>
-                <li><a href="/pages/consequences.html" class="test">CONSEQUENCES</a></li>
-                <li><a href="/pages/safety.html" class="test">SAFETY</a></li>
-            </ul>
-        </div>
+		<ul class="nav nav-justified text-aliceblue">
+			<li class="nav-item"><a class="nav-link" href="pages/gallery.html">Gallery</a></li>
+			<li class="nav-item"><a class="nav-link" href="index.html" id="main">Digital Imagery</a></li>
+			<li class="nav-item"><a class="nav-link" href="pages/contact.html">Contact</a></li>
+		</ul>
+		<ul class="nav nav-justified text-aliceblue">
+			<li class="nav-item"><a class="nav-link" href="pages/bio.html">About Me</a></li>
+			<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+			<li class="nav-item"><a class="nav-link" href="pages/sales.html">Sales</a></li>
+		</ul>
     </header>
-    <section class="important">
-        <h2 id="reapirHeader" class="mainPage">Definition of Repair</h2>
-        <p>
-            Repair is an idea that that you can repair devices, rather than throwing them away and being forced to have them replaced.
-        </p>
-        <h2>Solutions</h2>
-        <p>
-            Solutions to this could be having bills passed to force companies to sell parts, give schematics, and not put features in place to make repair difficult. 
-            Even now in Massachusetts repair bills have passed for automotive businesses.
-        </p>
-        <h2>My Opinion</h2>
-        <p>
-            In my opinion repair is better for the world because it stops the world from becoming to much of a throwaway one.
-        </p>
-    </section>
+	<div class="loremBox">
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempor felis id sapien molestie, at fringilla nunc dignissim. Sed convallis nulla id nunc vestibulum, at pulvinar nisi tempus. 
+	In hac habitasse platea dictumst. Phasellus mattis dapibus mattis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi vel venenatis velit, ut lobortis libero. 
+	Cras interdum auctor urna, id rhoncus dui placerat id.<br> Sed luctus tortor ac magna varius, vitae consectetur magna cursus. Duis quis sem aliquet, semper justo nec, interdum magna. 
+	Vivamus rhoncus eros diam, ac commodo ligula ultricies et. Phasellus volutpat metus tincidunt euismod sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus.<br> 
+	Fusce sollicitudin sapien hendrerit velit dapibus convallis. Ut facilisis hendrerit elit vel convallis. Aliquam leo massa, aliquet semper finibus quis, tristique vitae sem. Phasellus ullamcorper lobortis massa et convallis. 
+	Aenean ante justo, aliquam non dignissim vitae, cursus non est. Quisque pulvinar luctus placerat. Sed aliquam dui a orci vestibulum, at auctor turpis tincidunt.<br> Aenean iaculis diam a ipsum ultricies, a aliquet eros dictum. 
+	Integer ut tincidunt eros. Nullam ipsum sem, tempor sit amet fermentum sed, faucibus sed nulla. Nam venenatis justo pharetra augue suscipit venenatis. Phasellus hendrerit ipsum nec laoreet suscipit.
+	Cras dolor tellus, dapibus id tincidunt ac, vehicula et lectus. Cras venenatis molestie orci.<br> Morbi venenatis malesuada fringilla. Donec placerat diam in ante malesuada, id maximus purus malesuada.
+	Duis sodales pulvinar faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+	</div>
+	<div class="carousel slide" data-ride="carousel" id="carouselID">
+		<div class="carousel-inner">
+			<div class="carousel-item active data-interval="3750"">
+			<img class="d-block w-200 mx-auto h-auto" src="images/charazard.png">
+			</div><div class="carousel-item data-interval="3750"">
+			<img class="d-block w-200 mx-auto h-auto" src="images/benchy.png">
+			</div><div class="carousel-item data-interval="3750"">
+			<img class="d-block w-200 mx-auto h-auto" id="sandwormA" src="images/sandworm.png">
+			</div><div class="carousel-item data-interval="3750"">
+			<img class="d-block w-200 mx-auto h-auto" id="octopusA" src="images/octopus.png">
+			</div><div class="carousel-item data-interval="3750"">
+			<img class="d-block w-200 mx-auto h-auto" id="caliCatA" src="images/caliCat.png">
+			</div><div class="carousel-item data-interval="3750"">
+			<img class="d-block w-200 mx-auto h-auto" id="rocketA" src="images/rocket.png">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselID" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only mx-auto">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselID" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only mx-auto">Next</span>
+	</div>
+	<!--<div class="container-fluid">
+		<div class="row align-items-end ">
+			<div class="col-sm-2"><img src="images/benchy.png" class="mx-auto img-fluid"></div>
+			<div class="col-sm-2"><img src="images/caliCat.png" class="mx-auto img-fluid"></div>
+			<div class="col-sm-2"><img src="images/octopus.png" class="mx-auto img-fluid"></div>
+		<!--</div>
+		<div class="row">->
+			<div class="col-sm-2"><img src="images/rocket.png" class="mx-auto img-fluid"></div>
+			<div class="col-sm-2"><img src="images/sandworm.png" class="mx-auto img-fluid"></div>
+			<div class="col-sm-2 "><img src="images/charazard.png" class="mx-auto img-fluid"></div>
+		</div>-->
+	</div>
 </body>
 </html>
